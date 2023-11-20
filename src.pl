@@ -486,7 +486,7 @@ rule(desc(pain(swallowing), 'Discomfort and pain when swallowing or talking')).
 rule(desc(pain(testicular), 'Pain in the testicles (in males after puberty)')).
 rule(desc(pain(throat), 'Discomfort and irritation in the throat')).
 rule(desc(postnasal_drip, 'Excess production of mucus that drips down the back of the throat')).
-rule(desc(presence_of(cyst), 'growths/presence of growths: pearly-white color, sac-like, accumulation of debris (earwax, dead skin cells, etc)')).
+rule(desc(presence_of(cyst), 'Growths/presence of growths: pearly-white color, sac-like, accumulation of debris (earwax, dead skin cells, etc)')).
 rule(desc(presence_of(exudates), 'Pus or white/yellow patches on the tonsils.')).
 rule(desc(presence_of(growths_in_nasal_cavity), 'Growth-like structures in the nasal passages.')).
 rule(desc(red(affected_area), 'Affected area is red')). 
