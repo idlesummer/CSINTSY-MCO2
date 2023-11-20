@@ -486,80 +486,80 @@ rule(desc(pain(swallowing), 'Discomfort and pain when swallowing or talking')).
 rule(desc(pain(testicular), 'Pain in the testicles (in males after puberty)')).
 rule(desc(pain(throat), 'Discomfort and irritation in the throat')).
 rule(desc(postnasal_drip, 'Excess production of mucus that drips down the back of the throat')).
-rule(desc(presence_of(cyst), 'description')). % neww, Physical examination of growths/presence of growths: pearly-white color, sac-like, accumulation of debris (earwax, dead skin cells, etc)
+rule(desc(presence_of(cyst), 'growths/presence of growths: pearly-white color, sac-like, accumulation of debris (earwax, dead skin cells, etc)')).
 rule(desc(presence_of(exudates), 'Pus or white/yellow patches on the tonsils.')).
 rule(desc(presence_of(growths_in_nasal_cavity), 'Growth-like structures in the nasal passages.')).
-rule(desc(red(affected_area), 'Affected area is red')). % new
+rule(desc(red(affected_area), 'Affected area is red')). 
 rule(desc(red(tonsils), 'Tonsils are red.')).
 rule(desc(reduced(sense_of_smell), 'Diminished or absence of sense of smell')).
 rule(desc(runny_nose, 'Discharge of watery or mucus-like fluid from the nasal passages.')).
 rule(desc(severe(sore(throat)), 'Intense throat pain and discomfort.')).
-rule(desc(sensitivity_to(heat), 'Heightened sensitivity to heat.')). % new
-rule(desc(sensitivity_to(cold), 'Heightened sensitivity to cold temperatures.')). % new
-rule(desc(shaky_hands, 'Trembling or shaking of the hands.')). % new
+rule(desc(sensitivity_to(heat), 'Heightened sensitivity to heat.')). 
+rule(desc(sensitivity_to(cold), 'Heightened sensitivity to cold temperatures.')). 
+rule(desc(shaky_hands, 'Trembling or shaking of the hands.')). 
 rule(desc(sneezing, 'Repeated involuntary expulsions of air through the nose and mouth.')).
 rule(desc(snoring, 'Loud breathing sounds during sleep.')).
 rule(desc(sore(throat), 'Pain and discomfort in the throat.')).
 rule(desc(stridor, 'High-pitched, wheezing sound during breathing.')).
 rule(desc(stuffy_nose, 'Nasal congestion and blockage.')).
 rule(desc(sudden_onset, 'Rapid and abrupt development of symptoms.')).
-rule(desc(swollen(ear_area), 'Enlargement and tenderness of the ear and the area round it.')). % neww
+rule(desc(swollen(ear_area), 'Enlargement and tenderness of the ear and the area round it.')). 
 rule(desc(swollen(epiglottis), ' Inflammation and enlargement of the tissue at the back of the throat near the base of the tongue.')).
 rule(desc(swollen(lymph_nodes), 'Enlargement and tenderness of lymph nodes in the neck.')).
-rule(desc(swollen(neck_area), 'Enlargement of the neck area')). % new
-rule(desc(swollen(parotid_glands), 'Enlargement of the jaw area')). % new
+rule(desc(swollen(neck_area), 'Enlargement of the neck area')). 
+rule(desc(swollen(parotid_glands), 'Enlargement of the jaw area')). 
 rule(desc(swollen(tonsils), 'Enlarged tonsils that may be red and inflamed.')).
-rule(desc(tinnitus, 'Ringing or other noises in one or both ears.')). % neww
-rule(desc(warm(affected_area), 'Slight increase in temperature in the affected area.')). % new
+rule(desc(tinnitus, 'Ringing or other noises in one or both ears.')). 
+rule(desc(warm(affected_area), 'Slight increase in temperature in the affected area.')). 
 rule(desc(wheezing, 'Whistling sound during breathing.')).
 
 % Determines if a premise is askable within the knowledge base
 askable(agitated_mood).
 askable(bad_breath).
-askable(balance_problems). % new
+askable(balance_problems). 
 askable(barking_cough).
-askable(bulging_eyes). % new
+askable(bulging_eyes). 
 askable(stuffy_nose).
-askable(cold_symptoms). % ------------------- CHANGE
-askable(constipation). % new
+askable(cold_symptoms). 
+askable(constipation). 
 askable(cough).
 askable(difficulty(breathing)).
 askable(difficulty(speaking)).
 askable(difficulty(swallowing)).
 askable(discomfort(throat)).
-askable(discharge(ear)). % replaced fluid_drainage_from_the_ear
-askable(discharge(submandibular_duct)). % Possible purulent discharge from the duct opening inside the mouth
-askable(dizziness). % neww
+askable(discharge(ear)). 
+askable(discharge(submandibular_duct)). 
+askable(dizziness). 
 askable(dry_cough).
 askable(dry_hair).
-askable(dry_mouth). % new
+askable(dry_mouth). 
 askable(excessive(drooling)).
 askable(excessive(sweating)).
 askable(fatigue).
 askable(feeling_of(anxiety)).
 askable(feeling_of(lump_in_throat)).
 askable(feeling_of(pressure_in_face_or_sinuses)).
-askable(feeling_of(fullness_or_pressure_in_ear)). % new
+askable(feeling_of(fullness_or_pressure_in_ear)). 
 askable(sex(female)).
 askable(fever).
 askable(headache).
 askable(high(fever)).
 askable(hoarseness).
-askable(increased(appetite)). % new
-askable(increased(heart_rate)). % new (palpitations)
-askable(increased(weight_gain)). % new (easier weight gain)
-askable(itchy(ear)). % neww
+askable(increased(appetite)). 
+askable(increased(heart_rate)). 
+askable(increased(weight_gain)). 
+askable(itchy(ear)). 
 askable(itchy(eyes)).
 askable(itchy(nose)).
 askable(itchy(throat)).
-askable(insomnia). % new
-askable(irregular(menstrual_patterns)). % new
-askable(loss_of(hearing)). % neww
+askable(insomnia). 
+askable(irregular(menstrual_patterns)). 
+askable(loss_of(hearing)). 
 askable(loss_of(smell)).
 askable(loss_of(weight)).
-askable(memory_issues). % new
+askable(memory_issues). 
 askable(mild_soreness).
-askable(nasal_congestion). % new
+askable(nasal_congestion). 
 askable(pain(affected_area)).
 askable(pain(adbominal)).
 askable(pain(during_saliva_production)).
@@ -572,29 +572,29 @@ askable(pain(swallowing)).
 askable(pain(testicular)).
 askable(pain(throat)).
 askable(postnasal_drip).
-askable(presence_of(cyst)). % neww, Physical examination of growths/presence of growths: pearly-white color, sac-like, accumulation of debris (earwax, dead skin cells, etc)
+askable(presence_of(cyst)). 
 askable(presence_of(exudates)).
 askable(presence_of(growths_in_nasal_cavity)).
-askable(red(affected_area)). % new
+askable(red(affected_area)). 
 askable(red(tonsils)).
 askable(reduced(sense_of_smell)).
 askable(runny_nose).
 askable(severe(sore(throat))).
-askable(sensitivity_to(heat)). % new
-askable(sensitivity_to(cold)). % new
-askable(shaky_hands). % new
+askable(sensitivity_to(heat)). 
+askable(sensitivity_to(cold)). 
+askable(shaky_hands). 
 askable(sneezing).
 askable(snoring).
 askable(sore(throat)).
 askable(stridor).
 askable(stuffy_nose).
 askable(sudden_onset).
-askable(swollen(ear_area)). % neww
+askable(swollen(ear_area)). 
 askable(swollen(epiglottis)).
 askable(swollen(lymph_nodes)).
-askable(swollen(neck_area)). % new
-askable(swollen(parotid_glands)). % new
+askable(swollen(neck_area)). 
+askable(swollen(parotid_glands)). 
 askable(swollen(tonsils)).
-askable(tinnitus). % neww
-askable(warm(affected_area)). % new
+askable(tinnitus). 
+askable(warm(affected_area)). 
 askable(wheezing).
